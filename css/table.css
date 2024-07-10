@@ -1,0 +1,36 @@
+body{
+    background-color: Lightpink;
+}
+
+p{
+    font-size: 50px;
+    color: purple;
+    background-color: violet;
+}
+
+table{
+    border: double 2px hotpink;
+    font-size: 24px;
+    width: 50%;
+}
+
+th, td{
+    border: solid 1px plum;
+    width: 25%;
+}
+
+tr{
+    height: 1cm;
+}
+
+tr:hover{
+   background-color: Lightgrey; 
+}
+
+td:hover{
+   background-image : url(https://i.gifer.com/origin/94/94a8a454f1c6d9b3e5b4d0e5f7c2d597.gif);
+   text-transform : uppercase; 
+   font-weight : bold; 
+   text-align : center; 
+   color : darkcyan; 
+}

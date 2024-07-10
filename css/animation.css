@@ -1,0 +1,13 @@
+div{
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+}
+@keyframes example1{
+	from{background-color: pink;}
+	to{background-color: fuchsia;}
+}
+.d1{
+	animation-name: example1;
+	animation-duration: 4s;
+}

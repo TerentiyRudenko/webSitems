@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Rubik+Wet+Paint&display=swap');
+body{
+	background-color: lightgreen;
+}
+p{
+	font-size: 50px;
+	background-color: green;
+	color: cyan;
+	text-align: center;
+	font-family: "Rubik Beastly", system-ui;
+}
+.ul1 li{
+    padding-left: 10px;
+}
+.ul2 li{
+    color: red;
+    font-size: 1.1em;
+}
+@counter-style circled-digits {
+    system: cyclic;
+    symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋;
+    suffix: " ";
+  }
+  
+  ul {
+    list-style: circled-digits;
+  }
+  .dl {
+    font-size: large;
+  }
